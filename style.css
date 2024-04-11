@@ -1,8 +1,7 @@
-nav {
-    position: absolute; background-color: aqua; top: 100px; left: 100px;
-}
 
+html {background-image: url("Images/background1.jpg");}
 
+h1 {width: 100%; border: 2px solid black; color: black; text-align: center; background-color: lightgrey; }
 
 
 
@@ -10,3 +9,8 @@ nav {
 if different elements have same styling, can combine:
     navLeft, navRight { bakcground color: blue }
     navLeft { left: 0 }
+
+    nav { position: absolute; background-color: aqua; top: 100px; left: 100px;}
+
+    body {background-image: url("Images/background.jpg");}
+
