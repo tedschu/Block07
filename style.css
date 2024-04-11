@@ -1,7 +1,46 @@
 
-html {background-image: url("Images/background1.jpg");}
+body {background-image: url("Images/background.jpg");}
 
 h1 {width: 100%; border: 2px solid black; color: black; text-align: center; background-color: lightgrey; }
+
+#topText {width: 100%; text-align: center;}
+#topText > h2 {color:darkblue; }
+#topText > p {color:rgb(40, 40, 91); }
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.bookBox {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    border: 1px solid rgb(53, 52, 52);
+}
+
+.bookBox > img {width: 50%}
+
+footer {
+    text-align: right;
+    margin: 10px;
+
+}
+
+p {padding: 3px;}
+
+
+
 
 
 
